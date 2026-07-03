@@ -2190,6 +2190,175 @@
       "activeEffect": "",
       "activeCooldown": 0,
       "activeRange": 0
+    },
+    {
+      "id": "potion_health",
+      "nameTh": "ยาฟื้นพลังชีวิต",
+      "nameEn": "Health Potion",
+      "itemType": "EQUIPMENT",
+      "rarity": 1,
+      "stats": {},
+      "price": 250,
+      "sellPrice": 100,
+      "tags": [
+        "consumable",
+        "potion",
+        "heal"
+      ],
+      "isConsumable": true,
+      "healAmount": 400,
+      "manaAmount": 0,
+      "tier": 0
+    },
+    {
+      "id": "potion_mana",
+      "nameTh": "ยาฟื้นพลังเวท",
+      "nameEn": "Mana Potion",
+      "itemType": "EQUIPMENT",
+      "rarity": 1,
+      "stats": {},
+      "price": 200,
+      "sellPrice": 80,
+      "tags": [
+        "consumable",
+        "potion",
+        "mana"
+      ],
+      "isConsumable": true,
+      "healAmount": 0,
+      "manaAmount": 300,
+      "tier": 0
+    },
+    {
+      "id": "sword_long",
+      "nameTh": "ดาบยาว",
+      "nameEn": "Long Sword",
+      "itemType": "EQUIPMENT",
+      "rarity": 1,
+      "stats": {
+        "attackDamage": 15
+      },
+      "price": 450,
+      "sellPrice": 315,
+      "tags": [
+        "attack",
+        "tier0"
+      ],
+      "isConsumable": false,
+      "healAmount": 0,
+      "manaAmount": 0,
+      "tier": 0
+    },
+    {
+      "id": "cloth_armor",
+      "nameTh": "เกราะผ้า",
+      "nameEn": "Cloth Armor",
+      "itemType": "EQUIPMENT",
+      "rarity": 1,
+      "stats": {
+        "armor": 20
+      },
+      "price": 400,
+      "sellPrice": 280,
+      "tags": [
+        "defense",
+        "tier0"
+      ],
+      "isConsumable": false,
+      "healAmount": 0,
+      "manaAmount": 0,
+      "tier": 0
+    },
+    {
+      "id": "blade_ruin",
+      "nameTh": "ดาบพินาศ",
+      "nameEn": "Blade of Ruin",
+      "itemType": "EQUIPMENT",
+      "rarity": 2,
+      "stats": {
+        "attackDamage": 45,
+        "critChance": 0.2
+      },
+      "price": 1400,
+      "sellPrice": 980,
+      "tags": [
+        "attack",
+        "crit",
+        "tier1"
+      ],
+      "isConsumable": false,
+      "healAmount": 0,
+      "manaAmount": 0,
+      "tier": 1
+    },
+    {
+      "id": "guardian_plate",
+      "nameTh": "เกราะผู้พิทักษ์",
+      "nameEn": "Guardian Plate",
+      "itemType": "EQUIPMENT",
+      "rarity": 2,
+      "stats": {
+        "hp": 600,
+        "armor": 40
+      },
+      "price": 1500,
+      "sellPrice": 1050,
+      "tags": [
+        "defense",
+        "hp",
+        "tier1"
+      ],
+      "isConsumable": false,
+      "healAmount": 0,
+      "manaAmount": 0,
+      "tier": 1
+    },
+    {
+      "id": "archmage_staff",
+      "nameTh": "คทาจอมเวท",
+      "nameEn": "Archmage Staff",
+      "itemType": "EQUIPMENT",
+      "rarity": 3,
+      "stats": {
+        "abilityPower": 110,
+        "mana": 400,
+        "cooldownReduction": 0.15
+      },
+      "price": 3000,
+      "sellPrice": 2100,
+      "tags": [
+        "magic",
+        "mana",
+        "tier2"
+      ],
+      "isConsumable": false,
+      "healAmount": 0,
+      "manaAmount": 0,
+      "tier": 2
+    },
+    {
+      "id": "titan_aegis",
+      "nameTh": "โล่ไททัน",
+      "nameEn": "Titan Aegis",
+      "itemType": "EQUIPMENT",
+      "rarity": 3,
+      "stats": {
+        "hp": 1000,
+        "armor": 60,
+        "magicResist": 50,
+        "hpRegen": 20
+      },
+      "price": 3200,
+      "sellPrice": 2240,
+      "tags": [
+        "defense",
+        "hp",
+        "tier2"
+      ],
+      "isConsumable": false,
+      "healAmount": 0,
+      "manaAmount": 0,
+      "tier": 2
     }
   ],
   "balance": {
